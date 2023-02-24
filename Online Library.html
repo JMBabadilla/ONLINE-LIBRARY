@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <title>Online Library</title>
+    <style>
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+</style>
+
+</head>
+<body>
+    
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Carousel Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .carousel-inner img{
+        height: 300px;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Carousel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://static.wixstatic.com/media/005028_6b3b5e37cd0a4e0db7c9488f50353acc~mv2.png/v1/fill/w_560,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BOOK%20SALE.png" class="d-block w-100" style="height: 400px;"/>
+      </div>
+      <div class="carousel-item active">
+        <img src="https://cdn1.clickthecity.com/wp-content/uploads/2021/06/18115509/Big-Bad-Wolf-Book-Sale-Online-1-1.png" class="d-block w-100" style="height: 400px;"/>
+      </div>
+      <div class="carousel-item active">
+        <img src="https://woodlibrary.org/wp-content/uploads/2021/09/Book-Sale.png" class="d-block w-100" style="height: 400px;"/>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+    <p class="text-center fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatum perferendis quam in rerum provident labore, cum assumenda aperiam accusantium quo pariatur laboriosam excepturi qui, temporibus ratione impedit eum. Nisi!</p>
+  <div class="row">
+ <!-- 1st card -->
+        <div class="col-lg-3 card text-center" style="width: 120; height: 400px;">
+          <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463189l/19374.jpg" class="card-img-top h-50" style= "height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Adventures of Huckleberry Finn</h5>
+              <p class="card-tex">Author: Mark Twain</p>
+              <p class="card-tex">Year Published: 1884</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a><a href="#" class="btn btn-primary">Add to Whistlist</a>
+            </div>
+    </div>
+<!-- 2nd card -->
+    <div class="col-lg-3 card text-center" style="width: 120; height: 400px;">
+      <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463189l/19374.jpg" class="card-img-top h-50" style= "height: 300px;">
+      <div class="card-body">
+        <h5 class="card-title">Adventures of Huckleberry Finn</h5>
+          <p class="card-tex">Author: Mark Twain</p>
+          <p class="card-tex">Year Published: 1884</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a><a href="#" class="btn btn-primary">Add to Whistlist</a>
+    </div>
+    </div>
+    <!-- 3rd card -->
+    <div class="col-lg-3 card  text-center" style="width: 120; height: 400px;">
+      <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463189l/19374.jpg" class="card-img-top h-50" style= "height: 300px;">
+      <div class="card-body">
+        <h5 class="card-title">Adventures of Huckleberry Finn</h5>
+          <p class="card-tex">Author: Mark Twain</p>
+          <p class="card-tex">Year Published: 1884</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a><a href="#" class="btn btn-primary">Add to Whistlist</a>
+        </div>
+      </div>
+      <!-- 4th card -->
+    <div class="col-lg-3 card text-center" style="width: 120; height: 400px;">
+      <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463189l/19374.jpg" class="card-img-top h-50" style= "height: 300px;">
+      <div class="card-body">
+        <h5 class="card-title">Adventures of Huckleberry Finn</h5>
+          <p class="card-tex">Author: Mark Twain</p>
+          <p class="card-tex">Year Published: 1884</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a><a href="#" class="btn btn-primary">Add to Whistlist</a>
+        </div>
+      </div>
+
+  </div>
+  <a class="btn btn-light align-items-center" href="/W52P/ONLINE LIBRARY/Checkout Form.html" style="margin-top: 10px; margin-bottom: 10px; margin-inline-end: auto;">Checkout</a>
+</div> 
+
+
+    
+
+
+
+    
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
+
+    
+</body>
+</html>
